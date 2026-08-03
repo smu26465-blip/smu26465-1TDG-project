@@ -15,18 +15,6 @@
     padding: 14px 16px;
   }
 
-  h1 {
-    border: 2px solid rebeccapurple
-  }
-  
   img {
-    width: 20%;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-
-  p {
-    font-style: normal;
-  }
+    width: 100;
+}
