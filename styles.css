@@ -1,22 +1,35 @@
-.nav-bar ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+        
+
   }
   
-  .nav-bar li {
+  .navbar li {
     float: right;
   }
   
-  .nav-bar li a {
+  .navbar li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
   }
   
-.container-1 {
+.about {
   display: flex;
   flex-direction: row;
 }
-.container-1 img {width: 50%;}
+
+.about img {
+  width: 50%;
+}
+
+.enviro img {
+  width: 50%;
+}
+.enviro{
+  display: flex;
+  flex-direction: row;
+}
