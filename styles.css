@@ -33,3 +33,24 @@
   display: flex;
   flex-direction: row;
 }
+
+.about img {
+  width: 45%;
+}
+
+.potato img {
+  width: 30%;
+}
+
+.navbar {
+  background-color: #739668; 
+  font-family: 'Georgia';
+}
+
+h1 {
+  font-family: Garamond;
+}
+
+.join img {
+  width: 50%;
+}
