@@ -38,12 +38,12 @@
   width: 45%;
 }
 
-.potato img {
-  width: 30%;
+.about-1 img {
+  padding-top: 1%;
+  width: 25%;
 }
 
 .navbar {
-  background-color: #739668; 
   font-family: 'Georgia';
 }
 
@@ -51,6 +51,29 @@ h1 {
   font-family: Garamond;
 }
 
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .join img {
   width: 50%;
+
+}
+
+.navbar img {
+  width: 15%;
+}
+
+.about-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.texta {
+  text-align: center;
 }
