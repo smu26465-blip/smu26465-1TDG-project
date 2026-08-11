@@ -51,12 +51,6 @@ h1 {
   font-family: Garamond;
 }
 
-.join {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .join img {
   width: 50%;
@@ -68,6 +62,9 @@ h1 {
 }
 
 .about-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px); 
+  gap: 15px; 
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -76,4 +73,9 @@ h1 {
 
 .texta {
   text-align: center;
+}
+
+.join {
+  display: flex;
+  flex-direction: row;
 }
