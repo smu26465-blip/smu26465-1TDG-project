@@ -44,11 +44,13 @@
 }
 
 .navbar {
+  background-color: #739668;
   font-family: 'Georgia';
 }
 
 h1 {
   font-family: Garamond;
+  text-align: center;
 }
 
 
