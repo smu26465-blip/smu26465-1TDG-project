@@ -2,21 +2,28 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-        
-
+    overflow: hidden;     
   }
   
-  .navbar li {
+.navbar li {
     float: right;
   }
   
-  .navbar li a {
+.navbar li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
   }
   
+.navbar {
+    background-color: #739668;
+    font-family: 'Georgia';
+  }
+  
+.navbar img {
+    width: 15%;
+  }
+
 .about {
   display: flex;
   flex-direction: row;
@@ -28,42 +35,13 @@
   padding-right: 1%;
 }
 
-.enviro img {
-  width: 50%;
-}
-.enviro{
+.enviro {
   display: flex;
   flex-direction: row;
 }
 
-.about img {
-  width: 45%;
-}
-
-.about-1 img {
-  padding-top: 1%;
-  width: 25%;
-}
-
-.navbar {
-  background-color: #739668;
-  font-family: 'Georgia';
-}
-
-h1 {
-  font-family: Garamond;
-  text-align: center;
-}
-
-
-.join img {
+.enviro img {
   width: 50%;
-  padding-right: 1%;
-
-}
-
-.navbar img {
-  width: 15%;
 }
 
 .about-1 {
@@ -76,11 +54,36 @@ h1 {
   align-items: center;
 }
 
-.texta {
+.about-1 img {
+  padding-top: 1%;
+  width: 25%;
+}
+
+
+h1 {
+  font-family: Garamond;
   text-align: center;
+}
+
+.join img {
+  width: 50%;
+  padding-right: 1%;
+
 }
 
 .join {
   display: flex;
   flex-direction: row;
+}
+
+.image-div img {
+  width: 115%;
+}
+
+.texta {
+  text-align: center;
+}
+
+.image-div {
+  width: 50%;
 }
