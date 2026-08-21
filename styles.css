@@ -29,11 +29,10 @@
   flex-direction: row;
 }
 
-.about img {
+.about > .image-div {
   width: 50%;
-  padding-left: 1%;
-  padding-right: 1%;
 }
+
 
 .enviro {
   display: flex;
@@ -44,7 +43,7 @@
   width: 50%;
 }
 
-.about-1 {
+.meet {
   display: grid;
   grid-template-columns: repeat(3, 100px); 
   gap: 15px; 
@@ -54,9 +53,9 @@
   align-items: center;
 }
 
-.about-1 img {
+.meet img {
   padding-top: 1%;
-  width: 25%;
+  width: 40%;
 }
 
 
@@ -86,4 +85,15 @@ h1 {
 
 .image-div {
   width: 50%;
+}
+
+.image-div {
+  flex: 0 0 calc(25% - 10px);
+  text-align: center;
+}
+
+.image-div img {
+  aspect-ratio: 1 /1;
+  object-fit: cover;
+  max-width: 125%;
 }
