@@ -29,10 +29,16 @@
   flex-direction: row;
 }
 
-.about > .image-div {
-  width: 50%;
+.about-content {
+  padding: 10px;
+}
+.about-content {
+  flex: 1;
 }
 
+.about-image-div img {
+  width: 100%;
+}
 
 .enviro {
   display: flex;
@@ -96,4 +102,8 @@ h1 {
   aspect-ratio: 1 /1;
   object-fit: cover;
   max-width: 125%;
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
 }
